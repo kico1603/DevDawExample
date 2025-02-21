@@ -16,6 +16,7 @@ body {
 
     background-color: var(--body-color) !important;
     color: var(--text-color);
+
 }
 
 .card {
@@ -24,9 +25,11 @@ body {
     flex-direction: unset;
     margin: 50px;
     border-radius: 10px !important;
-
+    
     background-color: var(--container-color) !important;
     box-shadow: var(--container-shadow);
+    
+    transition: width 2s ;
 }
 
 /* FIRST */
@@ -82,4 +85,14 @@ body {
     justify-content: space-around !important;
     margin: 10px;
     color: var(--main-color);
+}
+
+@media screen and (max-width: 930px) {
+    body {
+        margin: 0;
+    }
+    .card{
+        width: 95%;
+        width: 100%;
+    }
 }
