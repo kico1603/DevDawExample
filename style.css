@@ -1,0 +1,103 @@
+:root {
+    --main-color: #52A5E0;
+    --title-color: #EFF3F5;
+    --text-color: #C8CDD0;
+    --light-text-color: #A0A7AC;
+    --border-color: #2A3B47;
+    --container-color: #212E36;
+    --body-color: #192229;
+    --container-shadow : 0 1px 4px #0e171d92;
+}
+
+body {
+    width: 90%;
+    padding: 20px 0;
+    margin: auto !important;
+
+    background-color: var(--body-color) !important;
+    color: var(--text-color);
+
+}
+
+.card {
+    width: 50%;
+    padding: 10px;
+    flex-direction: unset;
+    margin: 50px;
+    border-radius: 10px !important;
+    
+    background-color: var(--container-color) !important;
+    box-shadow: var(--container-shadow);
+    
+    transition: width 2s ;
+}
+
+/* FIRST */
+.card:first-child {
+    flex-direction: unset;
+    margin: auto;
+}
+
+/* PAR */
+.card:nth-child(odd) {
+    flex-direction: row !important;
+    margin-left: auto;
+}
+
+/* IMPAR */
+.card:nth-child(even) {
+    flex-direction: row !important;
+}
+
+.card>div {
+    display: inline-block;
+    width: 60%;
+    margin: 20px;
+}
+.card hr{
+    border: none;
+    border-bottom: 5px solid var(--border-color);
+    margin: 2px;
+}
+.card h1 {
+    text-transform: capitalize;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+
+    color: var(--title-color);
+}
+
+.card h6, .muted{
+    color: var(--light-text-color);
+}
+
+.muted a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card img {
+    display: inline-block;
+    width: 161px;
+    height: 161px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around !important;
+    margin: 10px;
+    color: var(--main-color);
+}
+
+@media screen and (max-width: 930px) {
+    body {
+        margin: 0;
+    }
+    .card{
+        width: 95%;
+        width: 100%;
+    }
+}
