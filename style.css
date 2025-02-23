@@ -68,8 +68,13 @@ body {
     color: var(--title-color);
 }
 
-.card h6{
+.card h6, .muted{
     color: var(--light-text-color);
+}
+
+.muted a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .card img {
