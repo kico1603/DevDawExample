@@ -9,6 +9,11 @@
     --container-shadow : 0 1px 4px #0e171d92;
 }
 
+html{
+    scrollbar-color: blue #192229;
+    scrollbar-width:thin;
+}
+
 body {
     width: 90%;
     padding: 20px 0;
@@ -99,5 +104,6 @@ body {
     .card{
         width: 95%;
         width: 100%;
+        margin-left: 0;
     }
 }
