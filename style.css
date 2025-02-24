@@ -88,6 +88,8 @@ body {
     height: 161px;
     margin: auto;
     border-radius: 50%;
+    
+    object-fit: cover;
 }
 
 .redes {
