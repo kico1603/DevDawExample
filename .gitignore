@@ -3,8 +3,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
-# IGNORE QUE SOLICITA LA PRACTICA
-tash.cache
+
 
 # User-specific files
 *.rsuser
@@ -406,4 +405,4 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-trash.cache
+
