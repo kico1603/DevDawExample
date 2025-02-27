@@ -12,7 +12,6 @@
 *.userosscache
 *.sln.docstates
 
-trash.cache
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
